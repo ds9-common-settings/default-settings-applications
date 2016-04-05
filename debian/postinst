@@ -1,0 +1,24 @@
+#!/bin/bash
+
+set -e
+
+# transmission
+if [ -e /usr/share/applications/transmission-qt.desktop ]
+then
+  sed -i "s@Exec=transmission-qt %F@Exec=transmission-qt %U@" /usr/share/applications/transmission-qt.desktop
+fi
+
+case "$1" in
+    configure)
+    ;;
+    abort-upgrade|abort-remove|abort-deconfigure)
+    ;;
+    triggered)
+    ;;
+    *)
+        echo "postinst called with unknown argument \`$1'" >&2
+        exit 1
+    ;;
+esac
+
+exit 0

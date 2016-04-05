@@ -1,0 +1,14 @@
+Source: netrunner-settings-applications
+Section: admin
+Priority: optional
+Maintainer: Leszek Lesner <leszek@zevenos.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.2
+
+Package: netrunner-settings-applications
+Architecture: all
+Conflicts: kubuntu-settings-desktop
+Replaces: netrunner-default-settings (<< 1.6.1)
+Breaks: netrunner-default-settings (<< 1.6.1)
+Description: Netrunner specific application settings
+  This package provides the default settings for applications & mimetypes for Netrunner.
