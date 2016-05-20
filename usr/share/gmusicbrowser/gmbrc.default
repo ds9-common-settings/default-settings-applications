@@ -30,7 +30,7 @@ CloseToTray: 1
 LengthCheckMode: current
 TrayTipDelay: 0
 TrayTipTimeLength: 3000
-UseTray: 1
+UseTray: 0
 ShowTipOnSongChange: 0
 Sort: path album disc track file
 gst_use_replaygain: 0
