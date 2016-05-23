@@ -15,7 +15,7 @@ PLUGIN_FETCHCOVER_USEFILE: 1
 PLUGIN_AUTOSAVE: 1
 PLUGIN_ARTISTINFO: 1
 PLUGIN_MPRIS2: 1
-PLUGIN_AppIndicator: 1
+PLUGIN_AppIndicator: 0
 PLUGIN_AppIndicator_MiddleClick: showhide
 PLUGIN_NOTIFY: 0
 PLUGIN_NOTIFY_picsize: 50
@@ -28,9 +28,9 @@ PLUGIN_NOTIFY_title: '%S'
 AddFullscreenButton: 0
 CloseToTray: 1
 LengthCheckMode: current
-TrayTipDelay: 0
+UseTray: 1
+TrayTipDelay: 9999
 TrayTipTimeLength: 3000
-UseTray: 0
 ShowTipOnSongChange: 0
 Sort: path album disc track file
 gst_use_replaygain: 0
