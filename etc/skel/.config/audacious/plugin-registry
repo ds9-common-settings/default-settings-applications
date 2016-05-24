@@ -1,5 +1,5 @@
 format 8
-transport /usr/lib/x86_64-linux-gnu/audacious/Transport/gio.so
+transport /usr/lib/@@ARCH@@/audacious/Transport/gio.so
 stamp 1416843456
 name GIO Plugin
 domain audacious-plugins
@@ -10,7 +10,7 @@ enabled 1
 scheme ftp
 scheme sftp
 scheme smb
-transport /usr/lib/x86_64-linux-gnu/audacious/Transport/mms.so
+transport /usr/lib/@@ARCH@@/audacious/Transport/mms.so
 stamp 1416843456
 name MMS Plugin
 domain audacious-plugins
@@ -19,7 +19,7 @@ about 0
 config 0
 enabled 1
 scheme mms
-transport /usr/lib/x86_64-linux-gnu/audacious/Transport/neon.so
+transport /usr/lib/@@ARCH@@/audacious/Transport/neon.so
 stamp 1416843456
 name Neon HTTP/HTTPS Plugin
 domain audacious-plugins
@@ -29,7 +29,7 @@ config 0
 enabled 1
 scheme http
 scheme https
-playlist /usr/lib/x86_64-linux-gnu/audacious/Container/asx.so
+playlist /usr/lib/@@ARCH@@/audacious/Container/asx.so
 stamp 1416843455
 name ASXv1/ASXv2 Playlists
 domain audacious-plugins
@@ -38,7 +38,7 @@ about 0
 config 0
 enabled 1
 ext asx
-playlist /usr/lib/x86_64-linux-gnu/audacious/Container/asx3.so
+playlist /usr/lib/@@ARCH@@/audacious/Container/asx3.so
 stamp 1416843455
 name ASXv3 Playlists
 domain audacious-plugins
@@ -47,7 +47,7 @@ about 0
 config 0
 enabled 1
 ext asx
-playlist /usr/lib/x86_64-linux-gnu/audacious/Container/audpl.so
+playlist /usr/lib/@@ARCH@@/audacious/Container/audpl.so
 stamp 1416843455
 name Audacious Playlists (audpl)
 domain audacious-plugins
@@ -56,7 +56,7 @@ about 0
 config 0
 enabled 1
 ext audpl
-playlist /usr/lib/x86_64-linux-gnu/audacious/Container/cue.so
+playlist /usr/lib/@@ARCH@@/audacious/Container/cue.so
 stamp 1416843455
 name Cue Sheet Plugin
 domain audacious-plugins
@@ -65,7 +65,7 @@ about 0
 config 0
 enabled 1
 ext cue
-playlist /usr/lib/x86_64-linux-gnu/audacious/Container/m3u.so
+playlist /usr/lib/@@ARCH@@/audacious/Container/m3u.so
 stamp 1416843455
 name M3U Playlists
 domain audacious-plugins
@@ -75,7 +75,7 @@ config 0
 enabled 1
 ext m3u
 ext m3u8
-playlist /usr/lib/x86_64-linux-gnu/audacious/Container/pls.so
+playlist /usr/lib/@@ARCH@@/audacious/Container/pls.so
 stamp 1416843455
 name PLS Playlists
 domain audacious-plugins
@@ -84,7 +84,7 @@ about 0
 config 0
 enabled 1
 ext pls
-playlist /usr/lib/x86_64-linux-gnu/audacious/Container/xspf.so
+playlist /usr/lib/@@ARCH@@/audacious/Container/xspf.so
 stamp 1416843455
 name XML Shareable Playlists (XSPF)
 domain audacious-plugins
@@ -93,7 +93,7 @@ about 0
 config 0
 enabled 1
 ext xspf
-input /usr/lib/x86_64-linux-gnu/audacious/Input/xsf.so
+input /usr/lib/@@ARCH@@/audacious/Input/xsf.so
 stamp 1416843456
 name 2SF Decoder
 domain audacious-plugins
@@ -107,7 +107,7 @@ images 0
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/aac.so
+input /usr/lib/@@ARCH@@/audacious/Input/aac.so
 stamp 1416843456
 name AAC (MP4) Decoder
 domain audacious-plugins
@@ -121,7 +121,7 @@ images 1
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/aac-raw.so
+input /usr/lib/@@ARCH@@/audacious/Input/aac-raw.so
 stamp 1416843456
 name AAC (Raw) Decoder
 domain audacious-plugins
@@ -134,7 +134,7 @@ images 0
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/adplug.so
+input /usr/lib/@@ARCH@@/audacious/Input/adplug.so
 stamp 1416843457
 name AdPlug (AdLib Player)
 domain audacious-plugins
@@ -180,7 +180,7 @@ images 0
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/amidi-plug.so
+input /usr/lib/@@ARCH@@/audacious/Input/amidi-plug.so
 stamp 1416843457
 name AMIDI-Plug (MIDI Player)
 domain audacious-plugins
@@ -196,7 +196,7 @@ images 0
 subtunes 0
 writes 0
 infowin 1
-input /usr/lib/x86_64-linux-gnu/audacious/Input/cdaudio-ng.so
+input /usr/lib/@@ARCH@@/audacious/Input/cdaudio-ng.so
 stamp 1416843456
 name Audio CD Plugin
 domain audacious-plugins
@@ -209,7 +209,7 @@ images 0
 subtunes 1
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/console.so
+input /usr/lib/@@ARCH@@/audacious/Input/console.so
 stamp 1416843456
 name Game Console Music Decoder
 domain audacious-plugins
@@ -232,7 +232,7 @@ images 0
 subtunes 1
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/modplug.so
+input /usr/lib/@@ARCH@@/audacious/Input/modplug.so
 stamp 1416843457
 name ModPlug (Module Player)
 domain audacious-plugins
@@ -264,7 +264,7 @@ images 0
 subtunes 1
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/madplug.so
+input /usr/lib/@@ARCH@@/audacious/Input/madplug.so
 stamp 1416843456
 name MPG123 Plugin
 domain audacious-plugins
@@ -280,7 +280,7 @@ images 1
 subtunes 0
 writes 1
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/psf2.so
+input /usr/lib/@@ARCH@@/audacious/Input/psf2.so
 stamp 1416843456
 name OpenPSF PSF1/PSF2 Decoder
 domain audacious-plugins
@@ -298,7 +298,7 @@ images 0
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/metronom.so
+input /usr/lib/@@ARCH@@/audacious/Input/metronom.so
 stamp 1416843457
 name Tact Generator
 domain audacious-plugins
@@ -311,7 +311,7 @@ images 0
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/tonegen.so
+input /usr/lib/@@ARCH@@/audacious/Input/tonegen.so
 stamp 1416843456
 name Tone Generator
 domain audacious-plugins
@@ -324,7 +324,7 @@ images 0
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/vtx.so
+input /usr/lib/@@ARCH@@/audacious/Input/vtx.so
 stamp 1416843456
 name VTX Decoder
 domain audacious-plugins
@@ -337,7 +337,7 @@ images 0
 subtunes 0
 writes 0
 infowin 1
-input /usr/lib/x86_64-linux-gnu/audacious/Input/wavpack.so
+input /usr/lib/@@ARCH@@/audacious/Input/wavpack.so
 stamp 1416843456
 name WavPack Decoder
 domain audacious-plugins
@@ -350,7 +350,7 @@ images 0
 subtunes 0
 writes 1
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/flacng.so
+input /usr/lib/@@ARCH@@/audacious/Input/flacng.so
 stamp 1416843456
 name FLAC Decoder
 domain audacious-plugins
@@ -364,7 +364,7 @@ images 1
 subtunes 0
 writes 1
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/vorbis.so
+input /usr/lib/@@ARCH@@/audacious/Input/vorbis.so
 stamp 1416843456
 name Ogg Vorbis Decoder
 domain audacious-plugins
@@ -380,7 +380,7 @@ images 1
 subtunes 0
 writes 1
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/sid.so
+input /usr/lib/@@ARCH@@/audacious/Input/sid.so
 stamp 1416843456
 name SID Player
 domain audacious-plugins
@@ -394,7 +394,7 @@ images 0
 subtunes 1
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/sndfile.so
+input /usr/lib/@@ARCH@@/audacious/Input/sndfile.so
 stamp 1416843456
 name Sndfile Plugin
 domain audacious-plugins
@@ -410,7 +410,7 @@ images 0
 subtunes 0
 writes 0
 infowin 0
-input /usr/lib/x86_64-linux-gnu/audacious/Input/ffaudio.so
+input /usr/lib/@@ARCH@@/audacious/Input/ffaudio.so
 stamp 1416843456
 name FFmpeg Plugin
 domain audacious-plugins
@@ -439,7 +439,7 @@ images 0
 subtunes 0
 writes 1
 infowin 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/bs2b.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/bs2b.so
 stamp 1416843455
 name Bauer Stereophonic-to-Binaural (BS2B)
 domain audacious-plugins
@@ -447,7 +447,7 @@ priority 0
 about 0
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/crystalizer.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/crystalizer.so
 stamp 1416843455
 name Crystalizer
 domain audacious-plugins
@@ -455,7 +455,7 @@ priority 0
 about 0
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/compressor.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/compressor.so
 stamp 1416843456
 name Dynamic Range Compressor
 domain audacious-plugins
@@ -463,7 +463,7 @@ priority 0
 about 1
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/echo.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/echo.so
 stamp 1416843456
 name Echo
 domain audacious-plugins
@@ -471,7 +471,7 @@ priority 0
 about 1
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/stereo.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/stereo.so
 stamp 1416843456
 name Extra Stereo
 domain audacious-plugins
@@ -479,7 +479,7 @@ priority 0
 about 1
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/ladspa.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/ladspa.so
 stamp 1416843456
 name LADSPA Host
 domain audacious-plugins
@@ -487,7 +487,7 @@ priority 0
 about 1
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/speed-pitch.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/speed-pitch.so
 stamp 1416843456
 name Speed and Pitch
 domain audacious-plugins
@@ -495,7 +495,7 @@ priority 0
 about 0
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/voice_removal.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/voice_removal.so
 stamp 1416843456
 name Voice Removal
 domain audacious-plugins
@@ -503,7 +503,7 @@ priority 0
 about 0
 config 0
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/mixer.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/mixer.so
 stamp 1416843456
 name Channel Mixer
 domain audacious-plugins
@@ -511,7 +511,7 @@ priority 2
 about 1
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/resample.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/resample.so
 stamp 1416843456
 name Sample Rate Converter
 domain audacious-plugins
@@ -519,7 +519,7 @@ priority 2
 about 1
 config 1
 enabled 0
-effect /usr/lib/x86_64-linux-gnu/audacious/Effect/crossfade.so
+effect /usr/lib/@@ARCH@@/audacious/Effect/crossfade.so
 stamp 1416843456
 name Crossfade
 domain audacious-plugins
@@ -527,7 +527,7 @@ priority 5
 about 1
 config 1
 enabled 0
-output /usr/lib/x86_64-linux-gnu/audacious/Output/pulse_audio.so
+output /usr/lib/@@ARCH@@/audacious/Output/pulse_audio.so
 stamp 1416843454
 name PulseAudio Output
 domain audacious-plugins
@@ -535,7 +535,7 @@ priority 2
 about 1
 config 0
 enabled 1
-output /usr/lib/x86_64-linux-gnu/audacious/Output/alsa.so
+output /usr/lib/@@ARCH@@/audacious/Output/alsa.so
 stamp 1416843455
 name ALSA Output
 domain audacious-plugins
@@ -543,7 +543,7 @@ priority 5
 about 1
 config 1
 enabled 0
-output /usr/lib/x86_64-linux-gnu/audacious/Output/oss4.so
+output /usr/lib/@@ARCH@@/audacious/Output/oss4.so
 stamp 1416843454
 name OSS4 Output
 domain audacious-plugins
@@ -551,7 +551,7 @@ priority 5
 about 1
 config 1
 enabled 0
-output /usr/lib/x86_64-linux-gnu/audacious/Output/sdlout.so
+output /usr/lib/@@ARCH@@/audacious/Output/sdlout.so
 stamp 1416843454
 name SDL Output
 domain audacious-plugins
@@ -559,7 +559,7 @@ priority 9
 about 1
 config 0
 enabled 0
-output /usr/lib/x86_64-linux-gnu/audacious/Output/filewriter.so
+output /usr/lib/@@ARCH@@/audacious/Output/filewriter.so
 stamp 1416843454
 name FileWriter Plugin
 domain audacious-plugins
@@ -567,7 +567,7 @@ priority 10
 about 1
 config 1
 enabled 0
-output /usr/lib/x86_64-linux-gnu/audacious/Output/jackout.so
+output /usr/lib/@@ARCH@@/audacious/Output/jackout.so
 stamp 1416843455
 name JACK Output
 domain audacious-plugins
@@ -575,7 +575,7 @@ priority 10
 about 1
 config 1
 enabled 0
-vis /usr/lib/x86_64-linux-gnu/audacious/Visualization/blur_scope.so
+vis /usr/lib/@@ARCH@@/audacious/Visualization/blur_scope.so
 stamp 1416843455
 name Blur Scope
 domain audacious-plugins
@@ -583,7 +583,7 @@ priority 0
 about 0
 config 1
 enabled 0
-vis /usr/lib/x86_64-linux-gnu/audacious/Visualization/gl-spectrum.so
+vis /usr/lib/@@ARCH@@/audacious/Visualization/gl-spectrum.so
 stamp 1416843455
 name OpenGL Spectrum Analyzer
 domain audacious-plugins
@@ -591,7 +591,7 @@ priority 0
 about 1
 config 0
 enabled 0
-vis /usr/lib/x86_64-linux-gnu/audacious/Visualization/cairo-spectrum.so
+vis /usr/lib/@@ARCH@@/audacious/Visualization/cairo-spectrum.so
 stamp 1416843455
 name Spectrum Analyzer
 domain audacious-plugins
@@ -599,7 +599,7 @@ priority 0
 about 0
 config 0
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/alarm.so
+general /usr/lib/@@ARCH@@/audacious/General/alarm.so
 stamp 1416843455
 name Alarm
 domain audacious-plugins
@@ -607,7 +607,7 @@ priority 0
 about 1
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/albumart.so
+general /usr/lib/@@ARCH@@/audacious/General/albumart.so
 stamp 1416843455
 name Album Art
 domain audacious-plugins
@@ -615,7 +615,7 @@ priority 0
 about 0
 config 0
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/aosd.so
+general /usr/lib/@@ARCH@@/audacious/General/aosd.so
 stamp 1416843455
 name AOSD (On-Screen Display)
 domain audacious-plugins
@@ -623,7 +623,7 @@ priority 0
 about 1
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/cd-menu-items.so
+general /usr/lib/@@ARCH@@/audacious/General/cd-menu-items.so
 stamp 1416843455
 name Audio CD Menu Items
 domain audacious-plugins
@@ -631,7 +631,7 @@ priority 0
 about 0
 config 0
 enabled 1
-general /usr/lib/x86_64-linux-gnu/audacious/General/delete-files.so
+general /usr/lib/@@ARCH@@/audacious/General/delete-files.so
 stamp 1416843455
 name Delete Files
 domain audacious-plugins
@@ -639,7 +639,7 @@ priority 0
 about 0
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/notify.so
+general /usr/lib/@@ARCH@@/audacious/General/notify.so
 stamp 1416843455
 name Desktop Notifications
 domain audacious-plugins
@@ -647,7 +647,7 @@ priority 0
 about 1
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/hotkey.so
+general /usr/lib/@@ARCH@@/audacious/General/hotkey.so
 stamp 1416843455
 name Global Hotkeys
 domain audacious-plugins
@@ -655,7 +655,7 @@ priority 0
 about 1
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/gnomeshortcuts.so
+general /usr/lib/@@ARCH@@/audacious/General/gnomeshortcuts.so
 stamp 1416843455
 name Gnome Shortcuts
 domain audacious-plugins
@@ -663,7 +663,7 @@ priority 0
 about 1
 config 0
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/lirc.so
+general /usr/lib/@@ARCH@@/audacious/General/lirc.so
 stamp 1416843455
 name LIRC Plugin
 domain audacious-plugins
@@ -671,7 +671,7 @@ priority 0
 about 1
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/lyricwiki.so
+general /usr/lib/@@ARCH@@/audacious/General/lyricwiki.so
 stamp 1416843455
 name LyricWiki Plugin
 domain audacious-plugins
@@ -679,7 +679,7 @@ priority 0
 about 0
 config 0
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/mpris2.so
+general /usr/lib/@@ARCH@@/audacious/General/mpris2.so
 stamp 1416843455
 name MPRIS 2 Server
 domain audacious-plugins
@@ -687,7 +687,7 @@ priority 0
 about 0
 config 0
 enabled 1
-general /usr/lib/x86_64-linux-gnu/audacious/General/scrobbler.so
+general /usr/lib/@@ARCH@@/audacious/General/scrobbler.so
 stamp 1416843455
 name Scrobbler 2.0
 domain audacious-plugins
@@ -695,7 +695,7 @@ priority 0
 about 1
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/search-tool.so
+general /usr/lib/@@ARCH@@/audacious/General/search-tool.so
 stamp 1416843455
 name Search Tool
 domain audacious-plugins
@@ -703,7 +703,7 @@ priority 0
 about 0
 config 0
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/song_change.so
+general /usr/lib/@@ARCH@@/audacious/General/song_change.so
 stamp 1416843455
 name Song Change
 domain audacious-plugins
@@ -711,7 +711,7 @@ priority 0
 about 0
 config 1
 enabled 0
-general /usr/lib/x86_64-linux-gnu/audacious/General/statusicon.so
+general /usr/lib/@@ARCH@@/audacious/General/statusicon.so
 stamp 1416843455
 name Status Icon
 domain audacious-plugins
@@ -719,7 +719,7 @@ priority 0
 about 1
 config 1
 enabled 0
-iface /usr/lib/x86_64-linux-gnu/audacious/General/gtkui.so
+iface /usr/lib/@@ARCH@@/audacious/General/gtkui.so
 stamp 1416843455
 name GTK Interface
 domain audacious-plugins
@@ -727,7 +727,7 @@ priority 0
 about 0
 config 1
 enabled 0
-iface /usr/lib/x86_64-linux-gnu/audacious/General/skins.so
+iface /usr/lib/@@ARCH@@/audacious/General/skins.so
 stamp 1416843455
 name Winamp Classic Interface
 domain audacious-plugins

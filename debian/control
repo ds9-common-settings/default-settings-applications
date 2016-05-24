@@ -6,7 +6,7 @@ Build-Depends: debhelper (>= 5)
 Standards-Version: 3.7.2
 
 Package: netrunner-settings-applications
-Architecture: all
+Architecture: any
 Conflicts: kubuntu-settings-desktop
 Replaces: netrunner-default-settings (<< 1.6.1)
 Breaks: netrunner-default-settings (<< 1.6.1)

@@ -11,3 +11,7 @@
 
 %:
 	dh $@
+
+override_dh_auto_configure:
+	sed -i -e 's,@@ARCH@@,$(DEB_BUILD_GNU_TYPE),g' etc/skel/.config/audacious/plugin-registry
+	dh_auto_configure
