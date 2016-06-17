@@ -7,13 +7,13 @@ set -e
 # Undo Diversions
 function undo_diversions {
     # gmusicbrowser layout
-    dpkg-divert --package netrunner-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/main.layout.orig /usr/share/gmusicbrowser/layouts/main.layout
-    dpkg-divert --package netrunner-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/filterfun.layout.orig /usr/share/gmusicbrowser/layouts/filterfun.layout
-    dpkg-divert --package netrunner-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/contrib.layout.orig /usr/share/gmusicbrowser/layouts/contrib.layout
-    dpkg-divert --package netrunner-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/makeitlooklike.layout.orig /usr/share/gmusicbrowser/layouts/makeitlooklike.layout
-    dpkg-divert --package netrunner-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/shimmer.layout.orig /usr/share/gmusicbrowser/layouts/shimmer.layout
+    dpkg-divert --package default-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/main.layout.orig /usr/share/gmusicbrowser/layouts/main.layout
+    dpkg-divert --package default-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/filterfun.layout.orig /usr/share/gmusicbrowser/layouts/filterfun.layout
+    dpkg-divert --package default-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/contrib.layout.orig /usr/share/gmusicbrowser/layouts/contrib.layout
+    dpkg-divert --package default-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/makeitlooklike.layout.orig /usr/share/gmusicbrowser/layouts/makeitlooklike.layout
+    dpkg-divert --package default-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/layouts/shimmer.layout.orig /usr/share/gmusicbrowser/layouts/shimmer.layout
     # gmusicbrowser main config file
-    dpkg-divert --package netrunner-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/gmbrc.default.orig /usr/share/gmusicbrowser/gmbrc.default
+    dpkg-divert --package default-settings-applications --remove --rename --divert /usr/share/gmusicbrowser/gmbrc.default.orig /usr/share/gmusicbrowser/gmbrc.default
 }
 
 case "$1" in
