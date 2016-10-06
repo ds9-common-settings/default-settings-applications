@@ -1,4 +1,4 @@
-# netrunner-settings-applications
+# default-settings-applications
 Application settings (for example Qmmp, gmusicbrowser,...)
 
 ## Currently contains
