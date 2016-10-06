@@ -1,5 +1,5 @@
 [Added Associations]
-inode/directory=kde4-dolphin.desktop;
+inode/directory=org.kde.dolphin.desktop;
 application/ogg=vlc.desktop;ghb.desktop;
 application/x-extension-mp4=vlc.desktop;ghb.desktop;
 application/x-flac=vlc.desktop;ghb.desktop;
