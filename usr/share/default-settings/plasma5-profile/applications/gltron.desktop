@@ -4,6 +4,7 @@ Type=Application
 Name=GLtron
 Comment=3D lightcycle game
 Comment[de]=dreidimensionales Lichtrad-Spiel
+TryExec=gltron
 Exec=gltron
 Icon=gltron
 Terminal=false
