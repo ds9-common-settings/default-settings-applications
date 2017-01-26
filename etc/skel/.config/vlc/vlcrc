@@ -1315,6 +1315,9 @@ qt-video-autoresize=0
 # List of words separated by | to filter (string)
 #qt-recentplay-filter=
 
+# Continue playback? (integer)
+qt-continue=0
+
 # Embed the file browser in open dialog (boolean)
 #qt-embedded-open=0
 
