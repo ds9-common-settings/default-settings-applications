@@ -167,5 +167,5 @@ Exec=synaptic-pkexec
 Icon=synaptic
 Terminal=false
 Type=Application
-Categories=PackageManager;GTK;System;Settings;
+Categories=PackageManager;GTK;System;
 OnlyShowIn=KDE;
