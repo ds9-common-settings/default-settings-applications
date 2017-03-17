@@ -50,6 +50,12 @@ image/x-portable-pixmap=lximage-qt.desktop;org.kde.gwenview.desktop;kde4-krita_p
 image/x-sony-arw=lximage-qt.desktop;kde4-krita_raw.desktop;org.kde.gwenview.desktop;kde4-okularApplication_tiff.desktop;kde4-okularApplication_kimgio.desktop;display-im6.desktop;kde4-krita_tiff.desktop;gimp.desktop;display-im6.q16.desktop;
 image/x-sony-sr2=lximage-qt.desktop;kde4-krita_raw.desktop;org.kde.gwenview.desktop;display-im6.desktop;kde4-okularApplication_kimgio.desktop;gimp.desktop;kde4-okularApplication_tiff.desktop;kde4-krita_tiff.desktop;display-im6.q16.desktop;
 image/x-sony-srf=lximage-qt.desktop;kde4-krita_raw.desktop;org.kde.gwenview.desktop;kde4-okularApplication_tiff.desktop;display-im6.q16.desktop;gimp.desktop;display-im6.desktop;kde4-okularApplication_kimgio.desktop;kde4-krita_tiff.desktop;
+video/mp2t=smplayer.desktop;mpv.desktop;
+video/ogg=smplayer.desktop;ghb.desktop;audacious.desktop;mpv.desktop;audacious-qt.desktop;
+video/vnd.rn-realvideo=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
+video/x-flv=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
+video/x-matroska-3d=smplayer.desktop;ghb.desktop;
+video/x-ms-wmp=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
 
 [Default Applications]
 image/bmp=lximage-qt.desktop;
@@ -68,3 +74,9 @@ image/x-portable-pixmap=lximage-qt.desktop;
 image/x-sony-arw=lximage-qt.desktop;
 image/x-sony-sr2=lximage-qt.desktop;
 image/x-sony-srf=lximage-qt.desktop;
+video/mp2t=smplayer.desktop;
+video/ogg=smplayer.desktop;
+video/vnd.rn-realvideo=smplayer.desktop;
+video/x-flv=smplayer.desktop;
+video/x-matroska-3d=smplayer.desktop;
+video/x-ms-wmp=smplayer.desktop;
