@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Categories=System;Utility;Archiving;
+X-KDE-RootOnly=true
+Exec=kdesudo IsoWriter %F
+Icon=icon-iw
+Name=ISO Writer
+Comment=Tool for creating bootable installation USB flash drives
+GenericName=USB key writer 
+Version=1.0 
