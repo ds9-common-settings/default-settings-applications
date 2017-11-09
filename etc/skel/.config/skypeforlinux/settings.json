@@ -1,1 +1,4 @@
-{"app.minimizeToTray":true} 
+{
+"app.minimizeToTray":true,
+"app.autoStartEnabled":false
+} 
