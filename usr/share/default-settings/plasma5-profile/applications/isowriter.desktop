@@ -2,7 +2,7 @@
 Type=Application
 Categories=System;Archiving;
 X-KDE-RootOnly=true
-Exec=kdesudo IsoWriter %F
+Exec=IsoWriter %F
 Icon=icon-iw
 Name=ISO Writer
 Comment=Tool for creating bootable installation USB flash drives
