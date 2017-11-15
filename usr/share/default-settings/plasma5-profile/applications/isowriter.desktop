@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Categories=System;Archiving;
+Categories=Utility;Archiving;
 X-KDE-RootOnly=true
 Exec=IsoWriter --dir $HOME %F
 Icon=icon-iw
