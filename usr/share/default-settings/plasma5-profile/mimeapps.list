@@ -57,6 +57,8 @@ video/vnd.rn-realvideo=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
 video/x-flv=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
 video/x-matroska-3d=smplayer.desktop;ghb.desktop;
 video/x-ms-wmp=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
+video/x-msvideo=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
+video/x-ms-wmv=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
 x-scheme-handler/http=firefox.desktop;
 x-scheme-handler/https=firefox.desktop;
 x-scheme-handler/ftp=firefox.desktop;
@@ -68,6 +70,8 @@ application/x-extension-shtml=firefox.desktop;
 application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
+application/vnd.ms-asf=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
+application/vnd.rn-realmedia=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
 
 [Default Applications]
 image/bmp=lximage-qt.desktop;
@@ -92,6 +96,7 @@ video/vnd.rn-realvideo=smplayer.desktop;
 video/x-flv=smplayer.desktop;
 video/x-matroska-3d=smplayer.desktop;
 video/x-ms-wmp=smplayer.desktop;
+video/x-ms-wmv=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
 video/x-flic=smplayer.desktop;
 x-scheme-handler/http=firefox.desktop
 x-scheme-handler/https=firefox.desktop
@@ -104,3 +109,6 @@ application/x-extension-shtml=firefox.desktop
 application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
+application/vnd.ms-asf=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
+application/vnd.rn-realmedia=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
+
