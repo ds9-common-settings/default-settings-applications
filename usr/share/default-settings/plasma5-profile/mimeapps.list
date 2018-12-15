@@ -72,6 +72,7 @@ application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 application/vnd.ms-asf=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
 application/vnd.rn-realmedia=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
+application/vnd.debian.binary-package=qapt-deb-installer.desktop;org.kde.discover.desktop;org.kde.ark.desktop;
 
 [Default Applications]
 image/bmp=lximage-qt.desktop;
@@ -111,4 +112,5 @@ application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 application/vnd.ms-asf=smplayer.desktop;mpv.desktop;smplayer_enqueue.desktop;
 application/vnd.rn-realmedia=smplayer.desktop;smplayer_enqueue.desktop;mpv.desktop;
+application/vnd.debian.binary-package=qapt-deb-installer.desktop;
 
