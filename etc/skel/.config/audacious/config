@@ -25,5 +25,5 @@ playlist_font=Arial 8
 playlist_visible=TRUE
 playlist_x=37
 playlist_y=443
-skin=/usr/share/audacious/Skins/Winamp
+skin=/usr/share/audacious/Skins/Refugee
 twoway_scroll=TRUE
